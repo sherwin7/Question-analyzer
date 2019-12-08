@@ -4,3 +4,5 @@ Built a NLP based Deep-Learning model for multi-classification of question categ
 The classifier is deployed in the Heroku application with the help of a WSGI HTTP Server for UNIX.
 
 #### https://question-analyzer.herokuapp.com/index
+
+## Setting up in Local Machine
