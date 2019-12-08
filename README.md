@@ -15,3 +15,19 @@ git clone https://github.com/sherwin7/Question-analyzer.git
 
 cd Question-analyzer
 ```
+
+#### Step-2
+Check python-3 is inatalled then install pip manager for python-3 and install virtual environment.
+```bash
+#Checking python is installed
+python3 --version 
+
+#Installing pip manager
+sudo apt install python3-pip
+
+#Checking pip is installed for python3
+pip3 --version
+
+#Installing virtual environment
+pip3 install virtualenv
+```
