@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+    {% block body %}
+      <div class="jumbotron text-center">
+        <h1>Welcome to My Classifier</h1>
+        <p class="lead"><strong>This application is build on the Flask to classify type of questions</strong></p>
+        <div class="container">
+
+          <br>
+
+          <form action="" method="post">
+              <div class="form-group">
+                <b><label for="question" style="color:green">Enter your Question</label></b>
+                <input type="text" placeholder="Question" name="question" value="{{
+                  request.form.question }}" class="form-control" id="email">
+              </div>
+
+            <!-- <input type="text" placeholder="Question" name="question" value="{{
+              request.form.question }}"> -->
+              <button type="submit" class="btn btn-success btn-block">Submit</button>
+            <!-- <input class="btn btn-default" type="submit" value="Check"> -->
+          </form>
+<br>
+<br>
+<br>
+
+          <div class="container">
+            <strong><span style="color:red">The category of the question you is : </span></strong>
+            {% if category %}
+              <p class="category"><strong><span style="color:blue" class="label label-default"> {{ category }}</span></strong></p>
+            {% endif %}
+
+          </div>
+
+    </div>
+
+      </div>
+
+    {% endblock %}
