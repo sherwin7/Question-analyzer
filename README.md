@@ -5,4 +5,9 @@ The classifier is deployed in the Heroku application with the help of a WSGI HTT
 
 #### https://question-analyzer.herokuapp.com/index
 
+
 ## Setting up in Local Machine
+
+#### Step-1
+
+Clone the 
