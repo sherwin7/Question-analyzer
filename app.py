@@ -14,7 +14,7 @@ def index():
     K.clear_session()
     category = None
     if request.method == 'POST':
-    return render_template('home.html', category=category)
+        return render_template('home.html', category=category)
 
 
 if __name__ == '__main__':
