@@ -10,3 +10,7 @@ The classifier is deployed in the Heroku application with the help of a WSGI HTT
 
 #### Step-1 
 Clone the Tap search repository and `cd` into the directory.
+```bash
+git clone https://github.com/sherwin7/Question-analyzer.git
+cd Question-analyzer
+```
