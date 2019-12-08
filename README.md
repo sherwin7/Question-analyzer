@@ -61,3 +61,4 @@ Open your browser and go to `localhost:5000/index` we can see our application ru
 http://127.0.0.1:5000/index
 ```
 ### Demo
+![Question-analyzer.gif](Question-analyzer.gif)
