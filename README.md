@@ -43,8 +43,8 @@ source venv/bin/activate
 ```
 
 #### Step-4
-Now we have to install all the dependencies using pip in our virtual environment from requirement.txt.
+Now we have to install all the dependencies using pip in our virtual environment from `requirement.txt`.
+Check `requirement.txt` to know what are all the dependencies used.
 ```python
 pip3 install -r requirements.txt
 ```
-* hello
