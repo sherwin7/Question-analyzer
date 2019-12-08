@@ -1,5 +1,5 @@
 # Question-analyzer
-Built a NLP based Deep-Learning model for multi-classification of question categories (what, when, who, affirmaton, unknown) and also developed a web-application using flask.
+Built a NLP based Deep-Learning model for multi-classification of question categories (what, when, who, affirmaton, unknown) and also developed a web-application using [flask](https://flask.palletsprojects.com/en/1.1.x/).
 
 The classifier is deployed in the [Heroku](https://www.heroku.com/platform) application with the help of [gunicorn](https://gunicorn.org/) a WSGI HTTP Server for UNIX.
 
