@@ -9,7 +9,7 @@ The classifier is deployed in the [Heroku](https://www.heroku.com/platform) appl
 ## Setting up in Local Machine
 
 #### Step-1 
-Open a `terminal`, clone the Question-analyzer repository and go into the directory using the command `cd`.
+Open a `terminal`, clone the `Question-analyzer` repository and go into the directory using the command `cd`.
 ```bash
 git clone https://github.com/sherwin7/Question-analyzer.git
 
@@ -17,7 +17,7 @@ cd Question-analyzer
 ```
 
 #### Step-2
-Check python-3 is inatalled then install pip manager for python-3 and install virtual environment.
+Check `python-3` is installed then install `pip` manager for python-3 and install `virtual environment`.
 ```bash
 #Checking python is installed
 python3 --version 
@@ -33,7 +33,7 @@ sudo pip3 install virtualenv
 ```
 
 #### Step-3
-Setting up virtual environment
+Setting up `virtual environment`.
 ```bash
 #Creating virtual environment
 virtualenv -p python3 venv
@@ -50,7 +50,7 @@ pip3 install -r requirements.txt
 ```
 
 #### Step-4
-Now we are going to run our application in our localhost
+Now we are going to run our application in our `localhost`
 ```bash
 python app.py
 ```
