@@ -29,5 +29,15 @@ sudo apt install python3-pip
 pip3 --version
 
 #Installing virtual environment
-pip3 install virtualenv
+sudo pip3 install virtualenv
+```
+
+#### Step-3
+Setting up virtual environment
+```bash
+#Creating virtual environment
+virtualenv -p python3 venv
+
+#Activating the virtual environment venv
+source venv/bin/activate
 ```
