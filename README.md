@@ -41,3 +41,9 @@ virtualenv -p python3 venv
 #Activating the virtual environment venv
 source venv/bin/activate
 ```
+
+#### Step-4
+Now we have to install all the dependencies using pip in our virtual environment from requirement.txt.
+```python
+pip3 install -r requirements.txt
+```
