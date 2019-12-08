@@ -55,4 +55,8 @@ Now we are going to run our application in our localhost
 python app.py
 ```
 
-
+#### Step-5
+Open your browser and go to `localhost:5000/index` we can see our application running in the localhost.
+```bash
+http://127.0.0.1:5000/index
+'''
