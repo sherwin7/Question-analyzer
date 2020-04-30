@@ -49,13 +49,13 @@ Check `requirements.txt` to know what are all the dependencies used.
 pip3 install -r requirements.txt
 ```
 
-#### Step-4
+#### Step-5
 Now we are going to run our application in our `localhost`
 ```bash
 python app.py
 ```
 
-#### Step-5
+#### Step-6
 Open your browser and go to `localhost:5000/index` we can see our application running in the localhost.
 ```bash
 http://127.0.0.1:5000/index
